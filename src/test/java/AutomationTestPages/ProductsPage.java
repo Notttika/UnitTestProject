@@ -34,7 +34,7 @@ public class ProductsPage {
     @FindBy(tagName = "table")
     private List<WebElement> allProductsView;
 
-    public ProductsPage(WebDriver driver) {//создаем конструктор, чтобы инициализироать страницу, который принимает в параметр отконфиг. драйвер
+    public ProductsPage(WebDriver driver) {
         this.driver = driver;
     }
 
