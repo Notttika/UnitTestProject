@@ -30,7 +30,7 @@ public class RegistrationPage {
     @FindBy(id = "emailHelp")
     private WebElement labelEmailHelpRegistration;
 
-    public RegistrationPage(WebDriver driver) {//создаем конструктор, чтобы инициализироать страницу, который принимает в параметр отконфиг. драйвер
+    public RegistrationPage(WebDriver driver) {
         this.driver = driver;
     }
 
