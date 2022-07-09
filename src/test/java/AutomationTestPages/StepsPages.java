@@ -13,7 +13,7 @@ public class StepsPages {
 
     private WebDriver driver;
 
-    public StepsPages(WebDriver driver) {//создаем конструктор, чтобы инициализироать страницу, который принимает в параметр отконфиг. драйвер
+    public StepsPages(WebDriver driver) {
         this.driver = driver;
     }
 
